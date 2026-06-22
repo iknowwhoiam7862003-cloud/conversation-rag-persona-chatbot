@@ -19,8 +19,7 @@ The system is local-first. It uses a built-in TF-IDF implementation, so it can r
 ### New Features
 
 * Added conversation parsing pipeline for chronological message processing.
-* Implemented automatic topic change detection using TF-IDF similarity and semantic drift analysis.
-* Added multi-level retrieval system using:
+* Added multi-level retrieval system in the project using:
 
   * Topic checkpoint index
   * 100-message checkpoint index
